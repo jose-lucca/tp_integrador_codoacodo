@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----HEADER----- */
+.logo_codoacodo {
+    width: 150px;
+    padding: 0;
+}
+
+
+.img_ba1{
+    filter: brightness(.4);
+
+}
+
+.contenedor {
+    width: 37%;
+    position: absolute;
+    bottom: 25%;
+    right: 7%;
+    color: #fff;
+}
+
+.contenido_gral {
+    position: relative;
+}
+
+.color_grid {
+    background: rgb(52, 58, 64);
+}
+
+.enlace_phover:hover {
+    background: rgb(100, 212, 247);
+    
+}
+
+.subrayado {
+    
+    padding: 0px;
+    margin: 0px;
+    text-decoration: dotted;
+}
+
+.color_boton_enviar {
+    background: rgb(150, 201, 62) !important;
+    border: rgb(150, 201, 62);
+}
+
+
+.color_nav {
+    background: rgb(30,81,110);
+}
+
+.listas li {
+    text-decoration: none;
+}
+
+
+
+
+/* foooteeer de prueba   */
+
+.contenedor_enlaces {
+    margin-top: 16px;
+    background: rgb(30,81,110);
+}
+
+.total {
+   
+    margin: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    flex-wrap: wrap;
+    gap: 50px
+
+}
+
+.contenedor_enlaces p{
+    margin: 0;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    
+}
+
+.contenedor_enlaces a {
+    text-decoration: none;
+}
+
+
+/*===================MEIDAS QUERY====================*/
+
+@media screen and (max-width: 800px) {
+    .contenedor {
+    width: auto;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+ 
+    }
