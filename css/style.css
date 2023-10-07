@@ -59,40 +59,9 @@
 }
 
 
-
-
-/* foooteeer de prueba   */
-
-.contenedor_enlaces {
-    margin-top: 16px;
-    background: rgb(30,81,110);
+.color_nav {
+    background: linear-gradient(to right, rgb(28,54,67), rgb(30,83,114));
 }
-
-.total {
-   
-    margin: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    flex-wrap: wrap;
-    gap: 50px
-
-}
-
-.contenedor_enlaces p{
-    margin: 0;
-    width: 80px;
-    text-align: center;
-    color: #fff;
-    font-size: 13px;
-    
-}
-
-.contenedor_enlaces a {
-    text-decoration: none;
-}
-
 
 /*===================MEIDAS QUERY====================*/
 
@@ -109,3 +78,10 @@
 }
  
     }
+
+  @media screen and (max-width: 450px) {
+    .contenedor h1, .contenedor p{
+        font-size: 80%
+    }
+    
+  }
