@@ -4,16 +4,14 @@
     box-sizing: border-box;
 }
 
-/* -----HEADER----- */
-.logo_codoacodo {
-    width: 150px;
-    padding: 0;
-}
-
-
 .img_ba1{
     filter: brightness(.4);
 
+}
+
+.contenido_gral {
+    position: relative;
+    
 }
 
 .contenedor {
@@ -24,39 +22,14 @@
     color: #fff;
 }
 
-.contenido_gral {
-    position: relative;
-}
-
-.color_grid {
-    background: rgb(52, 58, 64);
-}
-
-.enlace_phover:hover {
-    background: rgb(100, 212, 247);
-    
-}
-
-.subrayado {
-    
-    padding: 0px;
-    margin: 0px;
-    text-decoration: dotted;
-}
-
-.color_boton_enviar {
-    background: rgb(150, 201, 62) !important;
+.color_boton_enviarForm {
+    background: rgb(150, 201, 62);
     border: rgb(150, 201, 62);
 }
 
+/* FOOTER */
 
-.color_nav {
-    background: rgb(30,81,110);
-}
 
-.listas li {
-    text-decoration: none;
-}
 
 
 .color_nav {
@@ -81,7 +54,9 @@
 
   @media screen and (max-width: 450px) {
     .contenedor h1, .contenedor p{
-        font-size: 80%
+        font-size: 70%
     }
     
   }
+
+  
