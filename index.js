@@ -20,11 +20,10 @@ if (!isNaN(cant) && cant>0){
 sindescuento = cant * valorticket;
 descuento = (sindescuento * valorCategoria)/100;
 totalAPagar = sindescuento - descuento
-console.log (totalAPagar);
 pagoTotal.value = "Total a Pagar: $ " + totalAPagar
 
 } else {
-    console.log ("ingrese una cantidad");
+    alert ("ingrese una cantidad mayor a 0");
 }
 
 }
