@@ -85,13 +85,16 @@
         <p class="text-center mt-4 mb-0">VENTA</p>
         <h2 class="text-center">VALOR DEL TICKET $200</h2>
 
-        <form action="" method="" enctype="">
-            <div class="container">
-                <div class="row justify-content-center">
+        <form action="" method="post" enctype="">
+        <div class="container">
+            
+            
+            <div class="row justify-content-center">
                     <div class="col-4">
                         <div class="mb-0">
+                            
                             <label for="nombreComprador" class="form-label"></label>
-                            <input type="text" class="form-control" id="nombreComprador" placeholder="Nombre" required>
+                            <input type="text" required class="form-control" id="nombreComprador" placeholder="Nombre" required>
                         </div>
                     </div>
                     <div class="col-4">
@@ -103,8 +106,6 @@
                             <label for="emailComprador" class="form-label"></label>
                             <input type="email" class="form-control" id="emailComprador" aria-describedby="emailHelp"
                                 placeholder="Correo" required>
-
-
                         </div>
                     </div>
                     <div class="row justify-content-center mt-4 p-0">
@@ -114,28 +115,28 @@
                                 <input type="text" class="form-control" id="cantidadCompra" placeholder="cantidad">
                             </div>
                         </div>
-
+        
                         <div class="col-4">
                             <label for="" class="form-label">Categoria</label>
                             <div class="input-group mb-3">
-
+        
                                 <select class="form-select" id="categoria">
                                     <option value="80">Estudiante</option>
-                                    <option value="50" >Trainee</option>
+                                    <option value="50">Trainee</option>
                                     <option value="15">Junior</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="row justify-content-center p-0">
                         <div class="col-8">
                             <label for="pagoTicket" class="form-label"></label>
-                            <input type="text" class="form-control bg-info text-light" id="pagoTicket" aria-describedby="emailHelp"
-                                placeholder="Total a Pagar: $">
+                            <input type="text" class="form-control bg-info text-light" id="pagoTicket"
+                                aria-describedby="emailHelp" placeholder="Total a Pagar: $">
                         </div>
                     </div>
-
+        
                     <div class="row justify-content-center mt-4 mb-4 p-0">
                         <div class="col-4">
                             <div class="d-grid gap-2">
@@ -144,16 +145,35 @@
                         </div>
                         <div class="col-4">
                             <div class="d-grid gap-2">
-                                <button class="btn btn-primary color_boton_enviarForm" type="button" id="boton">Resumen</button>
+                                <button class="btn btn-primary color_boton_enviarForm" type="submit" id="boton">Resumen</button>
                             </div>
                         </div>
                     </div>
-
+        
                 </div>
             </div>
         </form>
-        </div>
+        
+        
     </main>
+
+
+<form action="">
+
+
+
+<label for="apelidoA">Apellido</label>
+<input type="text" name="apelidoA" placeholder="Apellido" required>
+
+<button>Enviar</button>
+
+
+
+
+</form>
+
+
+
 
     <footer>
  
